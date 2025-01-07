@@ -1,10 +1,10 @@
 import React from 'react'
-
+//how to include a CSS file in a React component
 function Navbar() {
   return (
     
 
-<nav className="navbar navbar-expand-lg ">
+<nav className="navbar navbar-expand-lg bg">
   <div className="container">
     <a className="navbar-brand" href="#">START FRAMEWORK</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
