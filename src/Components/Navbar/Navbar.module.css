@@ -1,1 +1,4 @@
-.Navbar {}
+.bgnavbar{
+    background-color: #2C3D50;
+    padding: 30px 0;
+}

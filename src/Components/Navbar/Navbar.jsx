@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Navbar.module.css'
 export default function Navbar() {
   return (
-   <nav className="navbar navbar-expand-lg bg-body-tertiary">
+   <nav className={`navbar navbar-expand-lg ${styles.bgnavbar} navbar-dark`}>
   <div className="container">
     <a className="navbar-brand" href="#">START FRAMEWORK</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
