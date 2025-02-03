@@ -20,11 +20,11 @@ export default function Footer() {
       </div>
       <div className="col-md-4 text-light text-center">
         <h3>AROUND THE WEB</h3>
-        <ul className='list-unstyled d-flex justify-content-center fs-1'>
-          <li><a href="" className='ms-3 text-light'><CiFacebook /></a></li>
-          <li><a href="" className='ms-3 text-light'><FaTwitter /></a></li>
-          <li><a href="" className='ms-3 text-light'><FaLinkedin /></a></li>
-          <li><a href="" className='ms-3 text-light'><TiWorld /></a></li>
+        <ul className='list-unstyled d-flex justify-content-center '>
+          <li><a href="" className={`ms-3 text-light ${styles.circle}`}><CiFacebook /></a></li>
+          <li><a href="" className={`ms-3 text-light ${styles.circle}`}><FaTwitter /></a></li>
+          <li><a href="" className={`ms-3 text-light ${styles.circle}`}><FaLinkedin /></a></li>
+          <li><a href="" className={`ms-3 text-light ${styles.circle}`}><TiWorld /></a></li>
         </ul>
         
       </div>
