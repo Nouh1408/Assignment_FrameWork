@@ -8,7 +8,9 @@ export default function Layout() {
   return (
     <>
     <Navbar />
-    <Outlet />
+    <div className={styles.paddingSection}>
+      <Outlet />
+    </div>
     <Footer />
     </>
   )

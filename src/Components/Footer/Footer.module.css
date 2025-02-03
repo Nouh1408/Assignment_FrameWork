@@ -1,1 +1,6 @@
-.Footer {}
+.footerColour {
+    background-color: #2C3D50;
+}
+.lowFooter{
+    background-color: #1A252F;
+}
