@@ -2,7 +2,7 @@
 import React from 'react'
 import styles from './Home.module.css'
 import img_1 from '../../../src/assets/avataaars.png'
-import { FaStar } from "react-icons/fa6";
+import CommonStructure from '../commonStructure/commonStructure';
 
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
   <div className=' text-center text-light py-5'>
     <img src={img_1} alt="" className={styles.custImg}/>
     <h1>START FRAMEWORK</h1>
-    <FaStar/>
+    <CommonStructure/>
     <p>Graphic Artist - Web Designer - Illustrator</p>
 
   </div>
