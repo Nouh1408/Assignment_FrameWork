@@ -2,7 +2,7 @@
   "name": "assignment-framework",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Nouh1408/React_website",
+  "homepage": "https://Nouh1408.github.io/React_website",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
