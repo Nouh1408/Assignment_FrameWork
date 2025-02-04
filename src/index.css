@@ -12,3 +12,12 @@
     background-color: white;
     height: 5px;
 }
+.img-layer{
+    background-color:rgba(26, 188, 156, 0.5);
+    opacity: 0;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.img-card:hover .img-layer{
+    opacity: 1;
+}
