@@ -10,7 +10,7 @@ import { FaLinkedin } from "react-icons/fa";
 export default function Footer() {
   return (
 
-<footer className={`position-fixed start-0 bottom-0 end-0 text-center ${styles.footerColour}`}>
+<footer className={` start-0 bottom-0 end-0 text-center ${styles.footerColour}`}>
   <div className="up p-3">
     <div className="row">
       <div className="col-md-4 text-light">

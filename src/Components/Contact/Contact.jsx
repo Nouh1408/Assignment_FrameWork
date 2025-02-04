@@ -3,10 +3,10 @@ import styles from './Contact.module.css'
 import CommonStructure from '../commonStructure/commonStructure'
 export default function Contact() {
   return (
-    <div className='text-center'>
+    <div className='text-center '>
     <h1>CONTACT SECTION</h1>
     <CommonStructure/>
-    <div className='d-flex justify-content-center'>
+    <div className='d-flex justify-content-center mt-3'>
     <div className='w-25 bg-light rounded-4'>
     <input type="text" placeholder='username' className='form-control my-2' />
     <input type="number" placeholder='userAge' className='form-control my-2' />
