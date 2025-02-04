@@ -11,7 +11,7 @@ export default function Footer() {
   return (
 
 <footer className={`position-fixed start-0 bottom-0 end-0 text-center ${styles.footerColour}`}>
-  <div className="up p-5">
+  <div className="up p-3">
     <div className="row">
       <div className="col-md-4 text-light">
         <h3>LOCATION</h3>
@@ -34,7 +34,7 @@ export default function Footer() {
       </div>
     </div>
   </div>
-  <div className={`low p-3 text-light ${styles.lowFooter}`}>
+  <div className={`low p-2 text-light ${styles.lowFooter}`}>
     <p>Copyright © Your Website 2021</p>
   </div>
 </footer>
