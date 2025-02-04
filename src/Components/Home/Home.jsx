@@ -11,7 +11,7 @@ export default function Home() {
   <div className=' text-center text-light py-5'>
     <img src={img_1} alt="" className={styles.custImg}/>
     <h1>START FRAMEWORK</h1>
-    <p><FaStar/></p>
+    <FaStar/>
     <p>Graphic Artist - Web Designer - Illustrator</p>
 
   </div>
