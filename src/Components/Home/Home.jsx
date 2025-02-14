@@ -7,8 +7,8 @@ import CommonStructure from '../commonStructure/commonStructure';
 
 export default function Home() {
   return (
-  <div style={{backgroundColor:'#1ABC9C'}}>
-  <div className=' text-center text-light py-5' >
+  <div style={{backgroundColor:'#1ABC9C'}} className='d-flex justify-content-center align-content-center m-5 '>
+  <div className=' text-center text-light py-5 ' >
     <img src={img_1} alt="" className={styles.custImg}/>
     <h1>START FRAMEWORK</h1>
     <CommonStructure/>
